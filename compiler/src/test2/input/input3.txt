@@ -1,0 +1,26 @@
+var a,b,c,d;
+begin
+read(a);
+read(b);
+read(c);
+read(d);
+if a>b then
+begin
+a:=a*b;
+end;
+if a<b then
+begin
+b:=b/a;
+end;
+while c#0 do
+begin
+if c>=d then
+begin
+c:=c*d;
+end;
+if c<=d then
+begin
+c:=c/d;
+end;
+end;
+end;

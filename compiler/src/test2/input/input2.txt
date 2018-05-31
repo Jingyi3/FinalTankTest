@@ -1,0 +1,15 @@
+var a,b;
+procedure p
+begin  
+if odd(a) then
+begin
+b:=b-a+b;
+end;
+end;
+begin?
+read(a);
+read(b);
+call p;
+write(a);
+write(b);
+end;

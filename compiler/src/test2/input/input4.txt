@@ -1,0 +1,20 @@
+Const a1:=100;
+VaR b1,b2;
+procedure p;
+  begin 
+    a1:=b2/2;
+  end
+Begin
+  read(b1);
+  b2:=b1+a1;
+  while (a1=0) do
+    begin
+      call p;
+    end;
+  if odd(b2) then
+    begin
+      write(b2);
+    end; 
+  1:2;
+  2==3;
+End.
